@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online MobiHub</title>
+
+    <!--Bootstrap cdn file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Owl Carousel CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Custom CSS File-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header section -->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0">Muchiri Kennedy muchiriken08@gmail.com +254788501613</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-start border-end text-dark">Login</a>
+                <a href="#" class="px-3 border-end text-dak">WishList (0)</a>
+            </div>
+        </div>
+
+        <!--primary navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Online MobiHub</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Category <i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Coming Soon</a>
+                  </li>
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main id="main-site">
+        <!-- Products -->
+        <section id="product py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="../assets/products/iphone11.png" alt="product" class="img-fluid">
+                        <div class="row pt-4 font-size-16 font-baloo">
+                            <div class="col">
+                                <button type="submit" class="btn btn-danger form-control">Proceed to buy</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-5">
+                        <h5 class="font-baloo font-size-20">Iphone 11</h5>
+                        <small class="font-size-12">By Apple</small>
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <a href="#" class="px-2 text-decoration-none font-rale font-size-14">20, 134 ratings | 10000+ answered questions</a>
+                        </div>
+                        <hr class="m-0">
+                        <!-- product price -->
+                        <table class="my-3">
+                            <tr class="font-rale font-size-14">
+                                <td>Price Then</td>
+                                <td><del>Ksh105999</del></td>
+                            </tr>
+                            <tr class="font-rale font-size-14">
+                                <td>Price Now</td>
+                                <td class="font-size-20 text-danger"><span>Ksh95000</span><small class="font-size-12 text-dark">&nbsp; &nbsp;inclusive of all taxes</small></td>
+                            </tr>
+                            <tr class="font-rale font-size-14">
+                                <td>You save</td>
+                                <td><span class="font-size-16 text-success">Ksh10999</span></td>
+                            </tr>
+                        </table>
+
+                        <!-- Policy -->
+                        <div class="policy">
+                            <div class="d-flex">
+                                <div class="return text-center me-5">
+                                    <div class="text-size-20 my-2 color-second">
+                                        <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" class="font-rale font-size-12 text-decoration-none">10 Days <br> Replacement</a>
+                                </div>
+                                <div class="return text-center me-5">
+                                    <div class="text-size-20 my-2 color-second">
+                                        <span class="fas fa-truck border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" class="font-rale font-size-12 text-decoration-none"> 3 days <br> Delivery </a>
+                                </div>
+                                <div class="return text-center me-5">
+                                    <div class="text-size-20 my-2 color-second">
+                                        <span class="fas fa-check-double border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" class="font-rale font-size-12 text-decoration-none">1 year <br> Warranty</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- Order details -->
+                        <div id="order-details" class="d-flex flex-column text-dark">
+                            <small>Delivery within June 1-June 4</small>
+                            <small>Sold by <a href="#" class="text-decoration-none">Online MobiHub</a></small>
+                            <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 426158</small>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <!--colors-->
+                                <div class="color my-3">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="font-baloo">Color</h6>
+                                        <div class="p-2 color-yellow-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                        <div class="p-2 color-primary-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                        <div class="p-2 color-second-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product Quantity -->
+                            <div class="col-6">
+                              <div class="qty d-flex">
+                                <h6 class="font-baloo">Qty</h6>
+                                <div class="px-4 d-flex font-rale">
+                                  <button data-id="pro1" class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                  <input data-id="pro1" type="text" class="qty_input border px-2 w-50 bg-light text-center" value="1" placeholder="1" disabled>
+                                  <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <!-- Size -->
+                        <div class="size my-3">
+                          <h6 class="font-baloo">Size</h6>
+                          <div class="d-flex justify-content-between w-75">
+                            <div class="font-rubik border p-2">
+                              <button class="btn p-0 font-size-14">4GB Ram</button>
+                            </div>
+                            <div class="font-rubik border p-2">
+                              <button class="btn p-0 font-size-14">6GB Ram</button>
+                            </div>
+                            <div class="font-rubik border p-2">
+                              <button class="btn p-0 font-size-14">8GB Ram</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Product Description -->
+                    <div class="col-12">
+                      <h6 class="font-rubik">Product Description</h6>
+                      <hr>
+                      <p class="font-rale font-size-14">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, omnis?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae in quibusdam quis aperiam totam! Quis.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem voluptas deserunt quaerat non tenetur. Consequuntur, minima quod?
+                      </p>
+                      <p class="font-rale font-size-14">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, omnis?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae in quibusdam quis aperiam totam! Quis.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem voluptas deserunt quaerat non tenetur. Consequuntur, minima quod?
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Sale -->
+        <section id="top-sale">
+            <div class="container py-5 ">
+                <h4 class="font-rubik font-size-20">Top Sale</h4>
+                <hr>
+                <!--carousel-->
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Iphone 11</h6>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                  <span>Ksh95000</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                      <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+                          <div class="text-center">
+                              <h6>Iphone 11</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span>Ksh95000</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Iphone 11</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>Ksh95000</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+                    <div class="text-center">
+                        <h6>Iphone 11</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>Ksh95000</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+                <div class="text-center">
+                    <h6>Iphone 11</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>Ksh95000</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="item py-2">
+          <div class="product font-rale">
+            <a href="#"><img src="../assets/products/iphone11.png" alt="Product1" class="img-fluid"></a>
+            <div class="text-center">
+                <h6>Iphone 11</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>Ksh95000</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class=" bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Online MobiHub</h4>
+                <p class="font-size-14 font-rale text-white-50">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius quas provident
+                  similique! Earum adipisci, ad facere inventore quibusdam animi amet.
+                </p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newsletter</h4>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="col">
+                    <ibutton type="submit" class="btn btn-primary mb-2">Subscribe</ibutton>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">About Us</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">Delivery Information</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">Terms & Services</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Accounts</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">My Account</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">Order History</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">Wish List</a>
+                  <a href="#" class="font-rale font-size-14 pb-1 text-white-50">News Letters</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="text-center bg-dark py-2">
+          <p class="font-rale font-size-14"><a href="#" class="text-white-50 text-decoration-none">&copy; Copyrights 2021. Designed by <span class="color-second">Muchirike</span></a></p>
+        </div>
+    </main>
+
+
+    <!-- Jquery file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <!-- owl carousel file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Isotope plugin cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Custom javascript-->
+    <script src="index.js"></script>
+ 
+</body>
+</html>
